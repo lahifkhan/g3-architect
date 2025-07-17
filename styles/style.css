@@ -269,6 +269,10 @@ footer{
   .features-details {
     flex-direction: column;
   }
+  .features-details{
+    align-items: center;
+
+  }
 
   .fact-content {
     margin: 0px auto;
