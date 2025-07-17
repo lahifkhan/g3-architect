@@ -37,7 +37,8 @@
 
 .nav-container,
 .list-container,
-.our-fetures {
+.our-fetures,
+.features-details {
   display: flex;
 }
 
@@ -129,6 +130,55 @@ nav li a {
 }
 
 
+/* features details section style */
+
+.features-details{
+    /* gap: 54px; */
+    /* align-items: center; */
+}
+.sister-img-container img{
+    width: 100%;
+    
+
+}
+.features-container{
+    max-width: 586px;
+}
+.features-container h3{
+    border-left: 5px solid rgba(255, 144, 14, 1);
+    padding-left: 10px;
+}
+.features-container p{
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+
+.feature-card{
+    padding: 15px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+  
+}
+.feature-card h4{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.experience-year{
+    font-size: 4rem;
+    font-weight: bold;
+
+}
+#experience{
+    font-size: 25px;
+    font-weight: 500;
+  
+}
+.experience-badge{
+    margin-top: -100px;
+    margin-left: -30px;
+}
+
 
 
 
@@ -139,8 +189,13 @@ nav li a {
 @media screen and (max-width:576px) {
     .nav-container,
 .list-container,
-.our-fetures {
+.our-fetures,
+.features-details{
   flex-direction: column;
+}
+.experience-badge{
+    margin: 0px;
+     margin-top: -100px;
 }
 
     
@@ -148,8 +203,13 @@ nav li a {
 
 
 @media screen and (min-width:577px) and (max-width:768px) {
-    .our-fetures{
+    .our-fetures,
+    .features-details{
         flex-direction: column;
     }
+    .experience-badge{
+    margin: 0px;
+     margin-top: -100px;
+}
     
 }
